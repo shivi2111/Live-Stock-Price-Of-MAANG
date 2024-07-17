@@ -1,0 +1,57 @@
+.boxShadow {
+    font-family: cursive, sans-serif;
+    background-color: #2ecc71;
+    color: white;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px 2px #7fecad;
+    height: 30px;
+    margin: 25px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.boxShadow:hover{
+    box-shadow: rgba(7, 233, 127, 0.2) 0 0 10px 10px;
+    font-size: large;
+}
+  .button{
+    align-items: center;
+    background-color: #87d7f7;
+    border: 1.5px solid rgba(0, 0, 0, 0.5);
+    border-radius: .25rem;
+    box-shadow: rgba(6, 161, 233, 0.356) 0 0 3px 3px;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+    margin: 10px 20px;
+    
+  }
+
+  .button:hover {
+    box-shadow: rgba(0, 217, 255, 0.295) 0 0 5px 10px;
+    font-weight: bolder;
+    font-size: large;
+
+}
+
+  .mainDiv{
+    unicode-bidi: isolate;
+  }

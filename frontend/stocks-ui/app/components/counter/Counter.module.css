@@ -1,0 +1,33 @@
+.homePageStockCard {
+  height: 150px;
+  width: 210px;
+  background-color: rgba(185, 110, 255, -0.788);
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.homePageButtons {
+  align-items: center;
+  background-color:  rgba(185, 110, 255, 0.212);
+  border: 1.5px solid rgba(7, 3, 247, 0.685);
+  border-radius: 0.25rem;
+  box-shadow: rgba(6, 161, 233, 0.356) 0 0 3px 3px;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.85);
+  cursor: pointer;
+  font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-weight: 600;
+  justify-content: center;
+  position: relative;
+  transition: all 250ms;
+  margin: 10px 20px;
+}
+
+.homePageButtons:hover {
+  box-shadow: rgba(0, 217, 255, 0.295) 0 0 5px 10px;
+  font-weight: bolder;
+  font-size: larger;
+}
